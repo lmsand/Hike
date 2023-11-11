@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C74AB9052AFFFD2800CE041F /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AB9042AFFFD2800CE041F /* CustomButtonView.swift */; };
 		C74FCE992AFF3646009DF148 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FCE982AFF3646009DF148 /* HikeApp.swift */; };
 		C74FCE9B2AFF3646009DF148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FCE9A2AFF3646009DF148 /* ContentView.swift */; };
 		C74FCE9D2AFF3647009DF148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74FCE9C2AFF3647009DF148 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C74AB9042AFFFD2800CE041F /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		C74FCE952AFF3646009DF148 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74FCE982AFF3646009DF148 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		C74FCE9A2AFF3646009DF148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,12 +59,12 @@
 		C74FCE972AFF3646009DF148 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				C74FCEA82AFF3A27009DF148 /* Component */,
 				C74FCEAB2AFF3C35009DF148 /* Utility */,
 				C74FCE982AFF3646009DF148 /* HikeApp.swift */,
 				C74FCE9A2AFF3646009DF148 /* ContentView.swift */,
 				C74FCE9C2AFF3647009DF148 /* Assets.xcassets */,
 				C74FCE9E2AFF3647009DF148 /* Preview Content */,
-				C74FCEA82AFF3A27009DF148 /* Component */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -80,6 +82,7 @@
 			children = (
 				C74FCEA62AFF38EE009DF148 /* CardView.swift */,
 				C74FCEA92AFF3A4B009DF148 /* CustomBackgroundView.swift */,
+				C74AB9042AFFFD2800CE041F /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				C74FCEAA2AFF3A4B009DF148 /* CustomBackgroundView.swift in Sources */,
 				C74FCE9B2AFF3646009DF148 /* ContentView.swift in Sources */,
 				C74FCEA72AFF38EE009DF148 /* CardView.swift in Sources */,
+				C74AB9052AFFFD2800CE041F /* CustomButtonView.swift in Sources */,
 				C74FCE992AFF3646009DF148 /* HikeApp.swift in Sources */,
 				C74FCEAD2AFF3C4D009DF148 /* ColorExtension.swift in Sources */,
 			);
