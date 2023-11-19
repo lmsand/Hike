@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C74AB9052AFFFD2800CE041F /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AB9042AFFFD2800CE041F /* CustomButtonView.swift */; };
+		C74AB9072B000FE600CE041F /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AB9062B000FE600CE041F /* GradientButtonStyle.swift */; };
 		C74FCE992AFF3646009DF148 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FCE982AFF3646009DF148 /* HikeApp.swift */; };
 		C74FCE9B2AFF3646009DF148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74FCE9A2AFF3646009DF148 /* ContentView.swift */; };
 		C74FCE9D2AFF3647009DF148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74FCE9C2AFF3647009DF148 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		C74AB9042AFFFD2800CE041F /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		C74AB9062B000FE600CE041F /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		C74FCE952AFF3646009DF148 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74FCE982AFF3646009DF148 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		C74FCE9A2AFF3646009DF148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		C74FCEAB2AFF3C35009DF148 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				C74AB9062B000FE600CE041F /* GradientButtonStyle.swift */,
 				C74FCEAC2AFF3C4D009DF148 /* ColorExtension.swift */,
 			);
 			path = Utility;
@@ -169,6 +172,7 @@
 				C74FCE9B2AFF3646009DF148 /* ContentView.swift in Sources */,
 				C74FCEA72AFF38EE009DF148 /* CardView.swift in Sources */,
 				C74AB9052AFFFD2800CE041F /* CustomButtonView.swift in Sources */,
+				C74AB9072B000FE600CE041F /* GradientButtonStyle.swift in Sources */,
 				C74FCE992AFF3646009DF148 /* HikeApp.swift in Sources */,
 				C74FCEAD2AFF3C4D009DF148 /* ColorExtension.swift in Sources */,
 			);
